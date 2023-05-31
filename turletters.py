@@ -105,7 +105,31 @@ def turtleLetter(letter,tur):
         tur.right(135)
         tur.fd(40)
     elif letter == "E":
-	    pass
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.pd()
+        #letter
+        tur.fd(30)
+        tur.left(90)
+        tur.fd(20)
+        tur.pu()
+        tur.left(90)
+        tur.fd(15)
+        tur.pd()
+        tur.left(90)
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(15)
+        tur.right(90)
+        tur.fd(20)
+        #reset
+        tur.pu()
+        tur.left(90)
+        tur.fd(10)
+        tur.right(90)
+        tur.fd(25)
     elif letter == "F":
 	    pass
     elif letter == "G":
