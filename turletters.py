@@ -132,15 +132,102 @@ def turtleLetter(letter,tur):
         tur.right(90)
         tur.fd(10)
     elif letter == "F":
-	    pass
+	tur.setheading(0)
+        tur.pd()
+        
+        tur.fd(20)
+        tur.bk(20)
+        tur.right(90)
+        tur.fd(20)
+        
+        tur.left(90)
+        tur.fd(20)
+        tur.bk(20)
+
+        tur.right(90)
+        tur.fd(20)
+
+        tur.pu()
+        tur.left(180)
+        tur.fd(45)
+        tur.right(90)
+        tur.fd(55)
     elif letter == "G":
-	    pass		
+	tur.setheading(0)
+        tur.right(180)
+        
+        tur.pd()
+        tur.circle(20,180)
+        tur.left(90)
+        tur.fd(20)
+        tur.left(90)
+        tur.fd(10)
+
+        tur.pu()
+        tur.right(90)
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(25)
+        		
     elif letter == "H":
-	    pass
+	tur.setheading(0)
+        tur.right(90)
+        tur.fd(7)
+
+        tur.pd()
+
+        tur.fd(40)
+        tur.bk(20)
+
+        tur.left(90)
+        tur.fd(15)
+        tur.right(90)
+        tur.bk(20)
+        tur.fd(40)
+
+        tur.pu()
+        tur.bk(45)
+        tur.left(90)
+        tur.fd(20)
+	
     elif letter == "I":
-	    pass
+	tur.setheading(0)
+        tur.pd()
+
+        tur.fd(20)
+        tur.bk(30)
+        tur.fd(15)
+        tur.right(90)
+        tur.fd(40)
+        tur.left(90)
+        tur.fd(15)
+        tur.bk(30)
+
+        tur.pu()
+        tur.left(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(40)
+        
     elif letter == "J":
-	    pass
+	tur.setheading(0)
+        tur.pd()
+
+        tur.fd(20)
+
+        tur.fd(15)
+        tur.bk(30)
+        tur.fd(15)
+        tur.right(90)
+        tur.fd(30)
+        tur.circle(-20,70)
+
+        tur.pu()
+        tur.right(110)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(45)
+        
     elif letter == "K":
         tur.setheading(0)
         tur.pu()
@@ -318,6 +405,31 @@ if __name__ == "__main__":
     tur.speed(1)
     #turtleLetter("box",tur)
     turtleLetter("A",tur)
+    turtleLetter("B",tur)
+    turtleLetter("C",tur)
+    turtleLetter("D",tur)
+    turtleLetter("E",tur)
+    turtleLetter("F",tur)
+    turtleLetter("G",tur)
+    turtleLetter("H",tur)
+    turtleLetter("I",tur)
+    turtleLetter("J",tur)
+    turtleLetter("K",tur)
+    turtleLetter("L",tur)
+    turtleLetter("M",tur)
+    turtleLetter("N",tur)
+    turtleLetter("O",tur)
+    turtleLetter("P",tur)
+    turtleLetter("Q",tur)
+    turtleLetter("R",tur)
+    turtleLetter("S",tur)
+    turtleLetter("T",tur)
+    turtleLetter("U",tur)
+    turtleLetter("V",tur)
+    turtleLetter("W",tur)
+    turtleLetter("X",tur)
+    turtleLetter("Y",tur)
+    turtleLetter("Z",tur)
 
 
     window.exitonclick()
