@@ -250,13 +250,82 @@ def turtleLetter(letter,tur):
         tur.right(90)
         tur.fd(10)
     elif letter == "L":
-	    pass
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(10)
+        tur.pd()
+        #letter
+        tur.fd(30)
+        tur.left(90)
+        tur.fd(20)
+        #reset
+        tur.pu()
+        tur.left(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(10)
     elif letter == "M":
-	    pass
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(10)
+        tur.pd()
+        #letter
+        tur.fd(30)
+        tur.bk(30)
+        tur.left(20)
+        tur.fd(30)
+        tur.left(145)
+        tur.fd(30)
+        tur.right(165)
+        tur.fd(30)
+        #reset
+        tur.pu()
+        tur.bk(30)
+        tur.left(180)
+        tur.fd(10)
+        tur.right(90)
+        tur.fd(10)
     elif letter == "N":
-	    pass
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(10)
+        tur.pd()
+        #letter
+        tur.fd(30)
+        tur.bk(30)
+        tur.left(40)
+        tur.fd(30)
+        tur.left(140)
+        tur.fd(30)
+        #reset
+        tur.pu()
+        tur.fd(10)
+        tur.right(90)
+        tur.fd(10)
     elif letter == "O":
-	    pass
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(10)
+        tur.pd()
+        #letter
+        tur.fd(30)
+        tur.left(90)
+        tur.fd(20)
+        tur.left(90)
+        tur.fd(30)
+        tur.left(90)
+        tur.fd(20)
+        #reset
+        tur.pu()
+        tur.right(90)
+        tur.fd(10)
+        tur.right(90)
+        tur.fd(35)
     elif letter == "P":
 	tur.setheading(0)
         tur.pu()
