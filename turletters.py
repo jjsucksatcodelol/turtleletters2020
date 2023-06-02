@@ -130,7 +130,7 @@ def turtleLetter(letter,tur):
         tur.left(90)
         tur.fd(10)
         tur.right(90)
-        tur.fd(25)
+        tur.fd(10)
     elif letter == "F":
 	    pass
     elif letter == "G":
@@ -142,7 +142,26 @@ def turtleLetter(letter,tur):
     elif letter == "J":
 	    pass
     elif letter == "K":
-	    pass
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(10)
+        tur.pd()
+        #letter
+        tur.fd(30)
+        tur.bk(15)
+        tur.left(45)
+        tur.fd(15)
+        tur.bk(15)
+        tur.left(90)
+        tur.fd(15)
+        #reset
+        tur.pu()
+        tur.left(45)
+        tur.fd(10)
+        tur.right(90)
+        tur.fd(10)
     elif letter == "L":
 	    pass
     elif letter == "M":
@@ -162,21 +181,113 @@ def turtleLetter(letter,tur):
     elif letter == "T":
 	    pass
     elif letter == "U":
-	    pass
-    elif letter == "V":
-	    pass
-    elif letter == "W":
-	    pass
-    elif letter == "X":
-	    pass
-    elif letter == "Y":
-	    pass
-    elif letter == "Z":
         tur.setheading(0)
         tur.pu()
         tur.fd(5)
         tur.right(90)
         tur.fd(10)
+        tur.pd()
+        #letter
+        tur.fd(15)
+        tur.left(45)
+        tur.fd(15)
+        tur.left(90)
+        tur.fd(15)
+        tur.left(45)
+        tur.fd(20)
+        #reset
+        tur.pu()
+        tur.fd(10)
+        tur.right(90)
+        tur.fd(10)
+    elif letter == "V":
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(10)
+        tur.pd()
+        #letter
+        tur.left(30)
+        tur.fd(30)
+        tur.left(130)
+        tur.fd(30)
+        #reset
+        tur.pu()
+        tur.left(25)
+        tur.fd(10)
+        tur.right(90)
+        tur.fd(15)
+    elif letter == "W":
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(10)
+        tur.pd()
+        #letter
+        tur.left(10)
+        tur.fd(30)
+        tur.left(140)
+        tur.fd(30)
+        tur.right(130)
+        tur.fd(30)
+        tur.left(145)
+        tur.fd(32)
+        #reset
+        tur.pu()
+        tur.fd(10)
+        tur.right(80)
+        tur.fd(10)
+    elif letter == "X":
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(10)
+        tur.pd()
+        #letter
+        tur.left(45)
+        tur.fd(35)
+        tur.pu()
+        tur.right(135)
+        tur.fd(30)
+        tur.pd()
+        tur.right(135)
+        tur.fd(35)
+        #reset
+        tur.pu()
+        tur.left(45)
+        tur.fd(10)
+        tur.right(90)
+        tur.fd(10)
+    elif letter == "Y":
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(10)
+        tur.pd()
+        #letter
+        tur.left(45)
+        tur.fd(10)
+        tur.right(45)
+        tur.fd(20)
+        tur.bk(20)
+        tur.left(135)
+        tur.fd(10)
+        #reset
+        tur.pu()
+        tur.left(45)
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(10)
+    elif letter == "Z":
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(15)
         tur.pd()
         #letter
         tur.left(90)
